@@ -111,6 +111,31 @@ def test_main_content_inside_a_junk_wrapper_survives(detail: Detail) -> None:
     assert "the real story" in html_to_html(page, html_settings(detail)).text
 
 
+def test_html_puts_each_block_on_its_own_line() -> None:
+    page = (
+        b"<body><main><h1>Title</h1><p>one <b>bold</b> two</p><ul><li>x</li><li>y</li></ul>"
+        b"<table><tr><td>1</td><td>2</td></tr></table></main></body>"
+    )
+    lines = html_to_html(page, html_settings(Detail.MEDIUM)).text.splitlines()
+    for line in ("<h1>Title</h1>", "<p>one <b>bold</b> two</p>", "<li>x</li>", "<li>y</li>"):
+        assert line in lines
+    assert "<tr><td>1</td><td>2</td></tr>" in lines
+
+
+def test_html_line_breaks_leave_preformatted_text_alone() -> None:
+    page = (
+        b"<body><main><p>before</p><pre>line one\n    indented <span>s</span></pre></main></body>"
+    )
+    out = html_to_html(page, html_settings(Detail.HIGH)).text
+    assert "<pre>line one\n    indented <span>s</span></pre>" in out
+
+
+def test_html_keeps_non_breaking_space_after_newline() -> None:
+    page = "<body><main><p>a\n\u00a0b</p></main></body>".encode()
+    out = html_to_html(page, html_settings(Detail.MEDIUM)).text
+    assert "\n\u00a0b" in out or "\n&nbsp;b" in out
+
+
 def test_html_minimal_keeps_line_breaks() -> None:
     page = b"<body><main><p>first line<br>second line</p><hr><p>after</p></main></body>"
     out = html_to_html(page, html_settings(Detail.MINIMAL)).text

@@ -19,9 +19,18 @@ CELL_TAGS = frozenset({"td", "th"})
 COLLAPSED_ATTRIBUTE = "data-collapsed"
 ALWAYS_KEPT_ATTRIBUTES = frozenset({COLLAPSED_ATTRIBUTE, "rowspan", "colspan"})
 PREFORMATTED_TAGS = frozenset({"pre", "textarea"})
+LINE_TAGS = frozenset(
+    {
+        "html", "head", "title", "body", "main", "article", "section", "nav", "header", "footer",
+        "aside", "div", "p", "h1", "h2", "h3", "h4", "h5", "h6", "ul", "ol", "li", "dl", "dt",
+        "dd", "table", "caption", "thead", "tbody", "tfoot", "tr", "form", "fieldset", "legend",
+        "blockquote", "figure", "figcaption", "details", "summary", "address", "pre", "hr",
+        "textarea", "select", "option",
+    }
+)  # fmt: skip
 
 _SPACE_RUN = re.compile(r"[ \t\f\r]+")
-_NEWLINE_RUN = re.compile(r" ?\n[\s]*")
+_NEWLINE_RUN = re.compile(r" ?\n[ \t\n\f\r]*")
 # A Unicode noncharacter: pages never contain it, and lxml accepts it in text.
 _BOUNDARY = "\ufdd0"
 _TEXT_BOUNDARY = re.compile(rf"(?<=[^\s{_BOUNDARY}]){_BOUNDARY}+(?=[^\s{_BOUNDARY}])")
@@ -114,7 +123,25 @@ def _collapse(text: str | None) -> str | None:
     return _NEWLINE_RUN.sub("\n", _SPACE_RUN.sub(" ", text))
 
 
+def break_lines(root: HtmlElement) -> None:
+    """Start and end every block-level element on its own line; table rows stay on one line."""
+    inline_inside = PREFORMATTED_TAGS | CELL_TAGS
+    for element in root.iter(*LINE_TAGS):
+        parent = element.getparent()
+        if parent is None or any(
+            ancestor.tag in inline_inside for ancestor in element.iterancestors()
+        ):
+            continue
+        previous = element.getprevious()
+        if previous is not None:
+            previous.tail = (previous.tail or "") + "\n"
+        else:
+            parent.text = (parent.text or "") + "\n"
+        element.tail = "\n" + (element.tail or "")
+
+
 def serialize(root: HtmlElement) -> str:
+    break_lines(root)
     collapse_whitespace(root)
     html: str = lxml.html.tostring(root, encoding="unicode", method="html")
     return "<!DOCTYPE html>\n" + html + "\n"
