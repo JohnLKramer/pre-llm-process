@@ -23,7 +23,9 @@ NUMBER = re.compile(r"-?\d*\.\d+")
 def test_rasterize_uses_intrinsic_size() -> None:
     result = rasterize_svg(INKSCAPE_SVG, raster_settings(Detail.HIGH))
     image = Image.open(io.BytesIO(result.data))
-    assert image.format == "WEBP"
+    assert image.format == "PNG"
+    assert result.extension == ".png"
+    assert image.mode == "RGBA"
     assert image.size == (120, 81)
 
 

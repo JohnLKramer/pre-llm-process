@@ -26,10 +26,10 @@ def test_directory_mirrors_into_out(
     out = tmp_path / "out"
     assert main([str(inputs), "--out", str(out), "--detail", "low"]) == EXIT_OK
     written = sorted(str(p.relative_to(out)) for p in out.rglob("*") if p.is_file())
-    assert written == ["app/home.webp", "article.md", "badge.webp"]
-    assert Image.open(out / "app" / "home.webp").size == (512, 1024)
+    assert written == ["app/home.jpg", "article.md", "badge.png"]
+    assert Image.open(out / "app" / "home.jpg").size == (512, 1024)
     report = capsys.readouterr().err
-    assert "app/home.png -> " in report
+    assert f"app/home.png -> {out / 'app' / 'home.jpg'}" in report
     assert "note: main content found by: main element" in report
 
 
@@ -118,11 +118,43 @@ def test_corrupt_file_stops_the_run(tmp_path: Path, capsys: pytest.CaptureFixtur
     assert main([str(tmp_path), "--out", str(out)]) == EXIT_FAILED
     err = capsys.readouterr().err
     assert "b.png: UnidentifiedImageError" in err
-    assert (out / "a.webp").exists()
+    assert (out / "a.jpg").exists()
 
 
-def test_webp_output_is_valid(inputs: Path, tmp_path: Path) -> None:
+def test_jpeg_output_is_valid(inputs: Path, tmp_path: Path) -> None:
     out = tmp_path / "out"
     main([str(inputs / "app" / "home.png"), "--out", str(out), "--detail", "high"])
-    image = Image.open(io.BytesIO((out / "home.webp").read_bytes()))
+    image = Image.open(io.BytesIO((out / "home.jpg").read_bytes()))
+    assert image.format == "JPEG"
     assert image.size == (600, 1200)
+
+
+def test_dotted_filename_keeps_its_dots(tmp_path: Path) -> None:
+    source = tmp_path / "shot.v2.png"
+    source.write_bytes(screenshot_png(10, 10))
+    out = tmp_path / "out"
+    assert main([str(source), "--out", str(out)]) == EXIT_OK
+    assert [p.name for p in out.iterdir()] == ["shot.v2.jpg"]
+
+
+def test_rejects_rewriting_an_input_image(
+    tmp_path: Path, capsys: pytest.CaptureFixture[str]
+) -> None:
+    source = tmp_path / "x.jpg"
+    source.write_bytes(screenshot_png(10, 10))
+    original = source.read_bytes()
+    assert main([str(tmp_path), "--out", str(tmp_path)]) == EXIT_REJECTED
+    assert "x.jpg would overwrite its input" in capsys.readouterr().err
+    assert source.read_bytes() == original
+
+
+def test_rejects_png_input_that_would_be_rewritten_as_jpg(
+    tmp_path: Path, capsys: pytest.CaptureFixture[str]
+) -> None:
+    (tmp_path / "x.png").write_bytes(screenshot_png(10, 10))
+    (tmp_path / "x.jpg").write_bytes(screenshot_png(10, 10))
+    assert (
+        main([str(tmp_path / "x.png"), str(tmp_path / "x.jpg"), "--out", str(tmp_path)])
+        == EXIT_REJECTED
+    )
+    assert "would overwrite its input" in capsys.readouterr().err

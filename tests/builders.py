@@ -58,3 +58,9 @@ def transparent_png() -> bytes:
     out = io.BytesIO()
     Image.new("RGBA", (100, 100), (255, 0, 0, 0)).save(out, "PNG")
     return out.getvalue()
+
+
+def opaque_rgba_png() -> bytes:
+    out = io.BytesIO()
+    Image.new("RGBA", (100, 100), (255, 0, 0, 255)).save(out, "PNG")
+    return out.getvalue()

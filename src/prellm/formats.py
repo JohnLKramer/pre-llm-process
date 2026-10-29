@@ -37,7 +37,6 @@ ALLOWED_FORMATS = {
 OUTPUT_EXTENSIONS = {
     OutputFormat.MD: ".md",
     OutputFormat.HTML: ".html",
-    OutputFormat.IMAGE: ".webp",
     OutputFormat.SVG: ".svg",
 }
 
