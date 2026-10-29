@@ -1,0 +1,210 @@
+Ad Feedback
+
+Close icon
+
+[US](https://www.cnn.com/us)
+
+[World](https://www.cnn.com/world)
+
+[Politics](https://www.cnn.com/politics)
+
+More
+
+[Watch](https://www.cnn.com/subscription/all-access?source=sub_web_wall-wat-nav) [Listen](https://www.cnn.com/audio) Subscribe
+
+User Avatar User Avatar Sign in
+
+My Account
+
+- [Settings](https://www.cnn.com/account/settings)
+- [Newsletters](https://www.cnn.com/newsletters)
+- [Topics you follow](https://www.cnn.com/follow?iid=fw_var-nav)
+
+Your CNN account Sign in to your CNN account
+
+---
+
+User Avatar User Avatar Sign in
+
+My Account
+
+- [Settings](https://www.cnn.com/account/settings)
+- [Newsletters](https://www.cnn.com/newsletters)
+- [Topics you follow](https://www.cnn.com/follow?iid=fw_var-nav)
+
+Your CNN account Sign in to your CNN account
+
+---
+
+[Listen](https://www.cnn.com/audio) [Watch](https://www.cnn.com/subscription/all-access?source=sub_web_wall-wat-nav)
+
+---
+
+Edition
+
+[US](https://us.cnn.com/?hpt=header_edition-picker)
+
+[International](https://edition.cnn.com/?hpt=header_edition-picker)
+
+[Arabic](https://arabic.cnn.com/?hpt=header_edition-picker)
+
+Edition
+
+- [US](https://us.cnn.com/?hpt=header_edition-picker)
+- [International](https://edition.cnn.com/?hpt=header_edition-picker)
+- [Arabic](https://arabic.cnn.com/?hpt=header_edition-picker)
+
+---
+
+- [US](https://www.cnn.com/us)
+  - [Crime & Justice](https://www.cnn.com/us/crime-and-justice)
+  - [Immigration](https://www.cnn.com/us/immigration)
+  - [Education](https://www.cnn.com/us/education)
+- [World](https://www.cnn.com/world)
+  - [Africa](https://www.cnn.com/world/africa)
+  - [Americas](https://www.cnn.com/world/americas)
+  - [Asia](https://www.cnn.com/world/asia)
+- [Politics](https://www.cnn.com/politics)
+  - [Elections 2026](https://www.cnn.com/election/2026)
+  - [Trump](https://www.cnn.com/politics/president-donald-trump-47)
+  - [Facts First](https://www.cnn.com/politics/fact-check)
+
+Follow CNN
+
+Download the CNN App
+
+Download the CNN App
+
+- CNN Headlines
+  • Source: [CNN](https://www.cnn.com/)
+  [CNN Headlines Catch up on today’s headlines](https://www.cnn.com/watch)
+- [![CNN-TALENT_V4.png](./Breaking%20News,%20Latest%20News%20and%20Videos%20_%20CNN_files/cnn-talent-v4.png) • Live Live CNN](https://www.cnn.com/watch/cnn-stream) [Live CNN Stream Live 24/7](https://www.cnn.com/watch/cnn-stream)
+- [![AOTM_Detroit Logo.png](./Breaking%20News,%20Latest%20News%20and%20Videos%20_%20CNN_files/aotm-detroit-logo.png) • Streaming Now Streaming Now CNN](https://www.cnn.com/videos/title-2599145?episode=2599164&source=subwall%3Avod%3Aepisode-2599164) [Streaming Now John King hears from Michigan voters about the election All Over the Map](https://www.cnn.com/videos/title-2599145?episode=2599164&source=subwall%3Avod%3Aepisode-2599164)
+
+- [• Analysis Getty Images/AP](https://www.cnn.com/2026/10/27/middleeast/israel-elections-outcome-analysis-hnk-intl) [Analysis No clear winner in Israel as exit polls suggest rebuke for Netanyahu Opposition leader Eisenkot says Israel voted for change. Netanyahu's party likely still the largest.](https://www.cnn.com/2026/10/27/middleeast/israel-elections-outcome-analysis-hnk-intl)
+- [Arab voters turn out in record numbers but entering government will still be tricky](http://cnn.com/2026/10/27/world/live-news/israel-elections-live-results-latest-votes-intl?post-id=cmvrjf6pu00003b6x2gzp1eg8)
+- [Video CNN reports on the mood at Eisenkot’s headquarters 4:10 Exit polls suggest there is no clear winner in Israel’s elections. CNN’s Jeremy Diamond reports from Benjamin Netanyahu’s headquarters in Jerusalem and CNN’s Nic Robertson is at Gadi Eisenkot’s headquarters in Tel Aviv.](https://www.cnn.com/2026/10/27/world/video/eisenkot-netanayhu-isreal-elections-exit-polls-diamond-robertson-latam-intl)
+
+- [![President Donald Trump applauds after speaking at a midterm campaign rally at the Port of Corpus Christi in Texas on October 27.](./Breaking%20News,%20Latest%20News%20and%20Videos%20_%20CNN_files/x-gettyimages-2301813295.jpg) • Analysis for Subscribers Kent Nishimura/AFP/Getty Images](https://www.cnn.com/2026/10/28/politics/trump-election-denial-midterms) [Analysis for Subscribers Why Trump’s latest election warning is impossible to ignore When President Donald Trump signals he might not accept the result of an election, he’s worth taking seriously.](https://www.cnn.com/2026/10/28/politics/trump-election-denial-midterms)
+- [Trump and Talarico held dueling Texas rallies two miles apart. Catch up on campaign news here Early voting turnout across Texas is strong so far, but it's especially high in the most Democratic counties](https://www.cnn.com/2026/10/27/politics/live-news/midterm-election-congress)
+
+- [![PETE AND COLLUM.png](./Breaking%20News,%20Latest%20News%20and%20Videos%20_%20CNN_files/pete-and-collum.png) • Video 3:08 Video 3:08 cnn](https://www.cnn.com/2026/10/27/politics/video/ac360-democrats-see-an-opening-in-deep-red-mississippi-senate-race) [Video Democrats see an opening in deep-red Mississippi Senate race 3:08](https://www.cnn.com/2026/10/27/politics/video/ac360-democrats-see-an-opening-in-deep-red-mississippi-senate-race)
+- [![Representative Jared Moskowitz, a Democrat from Florida, during an interview in Miami, Florida, US, on Friday, Aug. 28, 2026. The Florida congressman is hoping to prevail in a newly drawn district that is the wealthiest in Florida, stretching from Boca Raton to Miami Beach. Photographer: Marco Bello/Bloomberg via Getty Images](./Breaking%20News,%20Latest%20News%20and%20Videos%20_%20CNN_files/01-gettyimages-2292618248.JPG) Marco Bello/Bloomberg via Getty Images](https://www.cnn.com/2026/10/27/politics/jared-moskowitz-florida-pro-israel-democrat) [‘They wanted my voice gone’: A swing-seat, pro-Israel Democrat is fending off criticism from both parties](https://www.cnn.com/2026/10/27/politics/jared-moskowitz-florida-pro-israel-democrat)
+- [![Ohio Democratic gubernatorial candidate Dr. Amy Acton looks on during a campaign rally with former U.S. President Barack Obama at Cleveland Public Auditorium on October 24, 2026 in Cleveland, Ohio.](./Breaking%20News,%20Latest%20News%20and%20Videos%20_%20CNN_files/c-gettyimages-2301369361.jpg) • Video 3:52 Video 3:52 Jeff Swensen/Getty Images](https://www.cnn.com/2026/10/27/politics/video/ebof-lauren-fox-amy-acton-interview-vivek-ramaswamy-controversial-ad-midterms-2026) [Video Amy Acton speaks to CNN about Ramaswamy ad 3:52](https://www.cnn.com/2026/10/27/politics/video/ebof-lauren-fox-amy-acton-interview-vivek-ramaswamy-controversial-ad-midterms-2026)
+
+## Developing
+
+- [1 hr ago Breaking News a min ago Tampa Bay comes back in the 12th inning to extend the World Series, holding off Brewers’ championship dreams](https://www.cnn.com/2026/10/27/sport/live-news/game-4-world-series)
+- [4 hrs ago Republican Sen. Murkowski endorses a Democrat for Alaska governor](https://www.cnn.com/2026/10/27/politics/live-news/midterm-election-congress#cmvrcx9tz00003b6uvetszy67)
+- [5 hrs ago Judge wants to bring in special expert to look at California voter data](https://www.cnn.com/2026/10/27/politics/live-news/midterm-election-congress#cmvrbfau400003b6uf61qloj2)
+
+## Across Our Coverage
+
+- • Travel
+  [• Travel CNN](https://www.cnn.com/travel/williamson-tunnels-liverpool) [Travel An underground network of tunnels was discovered under Liverpool. Now workers think they’ve solved the mystery](https://www.cnn.com/travel/williamson-tunnels-liverpool)
+- [![acotar_still3.jpg](./Breaking%20News,%20Latest%20News%20and%20Videos%20_%20CNN_files/acotar-still3.jpg) • Travel 1:29 Travel 1:29 cnn](https://www.cnn.com/2026/10/27/travel/video/worlds-bestselling-author-of-2024-gives-fans-exactly-what-they-want-again-and-again) [Travel Fans spend $300 to read latest fantasy from one of the world’s bestselling authors 1:29](https://www.cnn.com/2026/10/27/travel/video/worlds-bestselling-author-of-2024-gives-fans-exactly-what-they-want-again-and-again)
+- [![Tampa Bay Rays pitcher Drew Rasmussen poses with his wife, Stevie, and their children, Miller and Rhett, during an All-Star event in July.](./Breaking%20News,%20Latest%20News%20and%20Videos%20_%20CNN_files/gettyimages-2285526819.jpg) • Sports Rob Tringali/MLB Photos/Getty Images](https://www.cnn.com/2026/10/27/sport/baseball-wives-october-playoffs) [Sports They’re chasing a World Series. Their families are just trying to survive October](https://www.cnn.com/2026/10/27/sport/baseball-wives-october-playoffs)
+
+- [![RIO DE JANEIRO, BRAZIL - OCTOBER 25: Flávio Bolsonaro presidential candidate for the Partido Liberal leaves after casting his vote during general election day on October 25, 2026 in Rio de Janeiro, Brazil. Brazilians will vote for the president who will run the country for the next 4 years. Current president Luiz Inácio Lula Da Silva and Flávio Bolsonaro, son of former president Jair Bolsonaro, face off in a tight presidential runoff. (Photo by Buda Mendes/Getty Images)](./Breaking%20News,%20Latest%20News%20and%20Videos%20_%20CNN_files/gettyimages-2301483834-20261027172231197.jpg) Buda Mendes/Getty Images](https://www.cnn.com/2026/10/27/americas/flavio-bolsonaro-brazil-passports-latam-intl) [Trump approved allowing Flávio Bolsonaro to enter US after Brazil election loss, source says Bolsonaro is currently under investigation in Brazil for alleged acts of corruption, money laundering and currency evasion. He denies all wrongdoing.](https://www.cnn.com/2026/10/27/americas/flavio-bolsonaro-brazil-passports-latam-intl)
+
+- [![Oren Alexander, center, and his twin brother, Alon, speak to their attorney during their bond hearing on December 13, 2024 in Miami, Florida.](./Breaking%20News,%20Latest%20News%20and%20Videos%20_%20CNN_files/gettyimages-2189059560-20260309222752926.jpg) Matias J. Ocner/Pool/Getty Images](https://www.cnn.com/2026/10/27/us/alexander-brothers-sentencing-sex-trafficking) [Alexander brothers each sentenced to 30 years in federal prison for sex trafficking Alon, Tal and Oren Alexander faced several of their victims during an emotional, hourslong hearing](https://www.cnn.com/2026/10/27/us/alexander-brothers-sentencing-sex-trafficking)
+
+## CNN Underscored
+
+- [![Blundstone Men’s Originals Suede Boots](./Breaking%20News,%20Latest%20News%20and%20Videos%20_%20CNN_files/joe-blundstone-originals-cnnu-6.jpg) Joe Bloss/CNN Underscored](https://www.cnn.com/cnn-underscored/reviews/blundstone-boots) [Everyone should have a pair of Blundstone boots. Here’s why our testers love them Oct 27, 2026](https://www.cnn.com/cnn-underscored/reviews/blundstone-boots)
+- [![1-sonos beam review](./Breaking%20News,%20Latest%20News%20and%20Videos%20_%20CNN_files/211007123832-1-sonos-beam-review.jpg) Jacob Krol/CNN](https://www.cnn.com/cnn-underscored/reviews/best-soundbar) [Your TV needs a soundbar, so we tested 23 to find the best Aug 9, 2026](https://www.cnn.com/cnn-underscored/reviews/best-soundbar)
+- [![Best gifts for grandparents in 2026](./Breaking%20News,%20Latest%20News%20and%20Videos%20_%20CNN_files/grandparent-gifts-cnnu.jpg) Molly Flores/CNN Underscored](https://www.cnn.com/cnn-underscored/gifts/best-gifts-for-grandparents) [The 27 best gifts for grandparents that make their lives easier and bring the family together Oct 27, 2026](https://www.cnn.com/cnn-underscored/gifts/best-gifts-for-grandparents)
+
+## For Subscribers
+
+- [For Subscribers See what early voting looks like in your state](https://www.cnn.com/politics/early-voting-2026-us-midterm-election-vis?iid=cnn_buildContentRecirc_end_recirc&recs_exp=personalized-inline&tenant_id=popular.article.en)
+- [For Subscribers The Senate is up for grabs. Plot each party’s best path to winning](https://www.cnn.com/politics/senate-map-midterm-election-vis?iid=cnn_buildContentRecirc_end_recirc&recs_exp=personalized-inline&tenant_id=popular.article.en)
+- [For Subscribers ‘I had a panic attack’: Victims’ families shocked as Republican ads recount heinous crimes](https://www.cnn.com/2026/10/22/politics/republican-ads-victim-families?iid=cnn_buildContentRecirc_end_recirc&recs_exp=personalized-inline&tenant_id=popular.article.en)
+
+- [![thumb_23108534_0_thumb.jpg](./Breaking%20News,%20Latest%20News%20and%20Videos%20_%20CNN_files/thumb-23108534-0-thumb.jpg) • CNN Exclusive 11:14 CNN Exclusive 11:14 CNN](https://www.cnn.com/2026/10/27/us/video/parents-of-alex-pretti-demand-justice-9-months-after-sons-killing-by-immigration-agents-in-minneapolis-lead-jake-tapper) [CNN Exclusive Parents of Alex Pretti demand justice 9 months after son’s killing by immigration agents in Minneapolis 11:14 Susan and Michael Pretti join The Lead](https://www.cnn.com/2026/10/27/us/video/parents-of-alex-pretti-demand-justice-9-months-after-sons-killing-by-immigration-agents-in-minneapolis-lead-jake-tapper)
+
+## More Top Stories
+
+- [![Xi Jinping and senior party leaders attend a gathering at the Great Hall of the People in Beijing, China, on July 1.](./Breaking%20News,%20Latest%20News%20and%20Videos%20_%20CNN_files/gettyimages-2283710243.jpg) Xie Huanchi/Xinhua/Getty Images](https://www.cnn.com/2026/10/28/china/china-plenum-xi-corruption-purge-analysis-hnk-intl) [It can be lonely at the top. And that’s just how China’s leader likes it](https://www.cnn.com/2026/10/28/china/china-plenum-xi-corruption-purge-analysis-hnk-intl)
+- [![Cassidy Hutchinson, a former White House aide in the Trump administration, participates in a discussion during The Principles First 2024 Summit: Conserving America's Liberal Tradition, at the Conrad Hotel in Washington, D.C., on Saturday, February 24, 2024.](./Breaking%20News,%20Latest%20News%20and%20Videos%20_%20CNN_files/c-gettyimages-2028787474.jpg) Tom Williams/CQ-Roll Call, Inc./Getty Images/File](https://www.cnn.com/2026/10/27/politics/cassidy-hutchinson-fail-indictment) [Justice Department fails to indict former White House aide over her testimony about Trump and Jan. 6, sources say](https://www.cnn.com/2026/10/27/politics/cassidy-hutchinson-fail-indictment)
+- [![(Original Caption) Suspected murderer Theodore Bundy, charged with the killings of FSU coeds Margaret Bowman and Lisa Levy who were beaten and strangled at the Chi Omega House in January, is shown in this photograph.](./Breaking%20News,%20Latest%20News%20and%20Videos%20_%20CNN_files/230722150630-ted-bundy-1978-restricted.jpg) Bettmann Archive/Getty Images](https://www.cnn.com/2026/10/27/us/ted-bundy-utah-murder-dna) [Serial killer Ted Bundy is linked to another Utah teenager’s 1974 murder through DNA testing](https://www.cnn.com/2026/10/27/us/ted-bundy-utah-murder-dna)
+
+## Streaming now
+
+- [CNN](https://www.cnn.com/videos/title-2602007?iid=related-embed_streaming-now) [Revisiting a MAGA loyalist two years after Trump’s re-election](https://www.cnn.com/videos/title-2602007?iid=related-embed_streaming-now)
+
+[![](./Breaking%20News,%20Latest%20News%20and%20Videos%20_%20CNN_files/lp-title-1050x456px-logo-left-alignedall-white.png)](https://www.cnn.com/videos/title-2600350)
+
+- [![CNN_POIA_TN_North Carolina__16x9_Texted.jpg](./Breaking%20News,%20Latest%20News%20and%20Videos%20_%20CNN_files/cnn-poia-tn-north-carolina-16x9-texted.jpg) CNN](https://www.cnn.com/videos/title-2600350?episode=2601775&source=subwall%3Avod%3Aepisode-2601775&iid=related-embed_streaming-now) [Crushing cost of living](https://www.cnn.com/videos/title-2600350?episode=2601775&source=subwall%3Avod%3Aepisode-2601775&iid=related-embed_streaming-now)
+- [![CNN_POIA_TN_16X9_IOWA.jpg](./Breaking%20News,%20Latest%20News%20and%20Videos%20_%20CNN_files/cnn-poia-tn-16x9-iowa.jpg) CNN](https://www.cnn.com/videos/title-2600350?episode=2601776&source=subwall%3Avod%3Aepisode-2601776&iid=related-embed_streaming-now) [Why Iowa is a toss-up](https://www.cnn.com/videos/title-2600350?episode=2601776&source=subwall%3Avod%3Aepisode-2601776&iid=related-embed_streaming-now)
+- [![CNN_POIA_TN_16x9_Tampa_01.png](./Breaking%20News,%20Latest%20News%20and%20Videos%20_%20CNN_files/cnn-poia-tn-16x9-tampa-01.png) CNN](https://www.cnn.com/videos/title-2600350?episode=2600353&source=subwall%3Avod%3Aepisode-2600353&iid=related-embed_streaming-now) [Seniors face a crisis](https://www.cnn.com/videos/title-2600350?episode=2600353&source=subwall%3Avod%3Aepisode-2600353&iid=related-embed_streaming-now)
+
+- [cnn](https://www.cnn.com/videos/title-2599145?episode=2599160&source=subwall%3Avod%3Aepisode-2599160&iid=related-embed_streaming-now) [Do these Michigan voters believe Abdul El-Sayed can win?](https://www.cnn.com/videos/title-2599145?episode=2599160&source=subwall%3Avod%3Aepisode-2599160&iid=related-embed_streaming-now)
+- [![SCRID-24335873_PUR-tileburnedin_LAN-en-US_CG-Standard_16x9 3840x2160.jpg](./Breaking%20News,%20Latest%20News%20and%20Videos%20_%20CNN_files/scrid-24335873-pur-tileburnedin-lan-en-us-cg-standard-16x9-3840x2160.jpg) CNN](https://www.cnn.com/videos/title-2600247?iid=related-embed_streaming-now) [CNN met two Nick Fuentes fans known as ‘groypers.’ When Fuentes learned of the interview, it got ugly](https://www.cnn.com/videos/title-2600247?iid=related-embed_streaming-now)
+- [![3840x2160 - Texted art (jpg) (12).jpg](./Breaking%20News,%20Latest%20News%20and%20Videos%20_%20CNN_files/3840x2160-texted-art-jpg-12-20260802182828711.jpg) CNN](https://cnn.com/videos/title-2573151?iid=related-embed_streaming-now) [A blind, low-vision baseball team knows no limitations](https://cnn.com/videos/title-2573151?iid=related-embed_streaming-now)
+
+- [![As a master perfumer at DSM-Firmenich, Frank Voelkl is responsible for crafting signature scents that have gone on to define the millennial perfume palette.](./Breaking%20News,%20Latest%20News%20and%20Videos%20_%20CNN_files/frank-voelkl-dsm-firmenich-copyright-jl-8.jpg) Julien Lienard/dsm firmenich](https://www.cnn.com/2026/10/27/style/frank-voelkl-perfumes) [The man behind some of your favorite scents If you have worn Le Labo’s Santal 33 or Glossier’s You, you have experienced one of Frank Voelkl’s creations](https://www.cnn.com/2026/10/27/style/frank-voelkl-perfumes)
+
+Subscribe
+
+User Avatar User Avatar Sign in
+
+My Account
+
+- [Settings](https://www.cnn.com/account/settings)
+- [Newsletters](https://www.cnn.com/newsletters)
+- [Topics you follow](https://www.cnn.com/follow?iid=fw_var-nav)
+
+Your CNN account Sign in to your CNN account
+
+---
+
+[Listen](https://www.cnn.com/audio) [Watch](https://www.cnn.com/watch)
+
+---
+
+- [US](https://www.cnn.com/us)
+  - [Crime & Justice](https://www.cnn.com/us/crime-and-justice)
+  - [Immigration](https://www.cnn.com/us/immigration)
+  - [Education](https://www.cnn.com/us/education)
+- [World](https://www.cnn.com/world)
+  - [Africa](https://www.cnn.com/world/africa)
+  - [Americas](https://www.cnn.com/world/americas)
+  - [Asia](https://www.cnn.com/world/asia)
+- [Politics](https://www.cnn.com/politics)
+  - [Elections 2026](https://www.cnn.com/election/2026)
+  - [Trump](https://www.cnn.com/politics/president-donald-trump-47)
+  - [Facts First](https://www.cnn.com/politics/fact-check)
+
+---
+
+[Watch](https://www.cnn.com/watch) [Listen](https://www.cnn.com/audio)
+
+---
+
+Subscribe
+
+User Avatar User Avatar Sign in
+
+My Account
+
+- [Settings](https://www.cnn.com/account/settings)
+- [Newsletters](https://www.cnn.com/newsletters)
+- [Topics you follow](https://www.cnn.com/follow?iid=fw_var-nav)
+
+Your CNN account Sign in to your CNN account
+
+Follow CNN
+
+---
+
+Download the CNN app
+
+Download the CNN app
+
+[Terms of Use](https://www.cnn.com/terms) [Privacy Policy](https://www.cnn.com/privacy) [Manage Cookies](https://www.cnn.com/#) [Ad Choices](https://www.cnn.com/ad-choices)
+
+© 2026 Cable News Network. All Rights Reserved.
+CNN Sans ™ & © 2016 Cable News Network.
+
+Download the CNN app Scan the QR code to download the CNN app on Google Play. ![Scan the QR code to download the CNN app from Google Play.](./Breaking%20News,%20Latest%20News%20and%20Videos%20_%20CNN_files/google-play-cnn-app-qr-code.png) Download the CNN app Scan the QR code to download the CNN app from the Apple Store. ![Scan the QR code to download the CNN app from the Apple Store.](./Breaking%20News,%20Latest%20News%20and%20Videos%20_%20CNN_files/app-store-cnn-app-qr-code.png)
