@@ -5,6 +5,7 @@ from builders import (
     animated_gif,
     jpeg_with_exif,
     multipage_tiff,
+    opaque_rgba_png,
     rotated_jpeg,
     screenshot_png,
     transparent_png,
@@ -35,7 +36,8 @@ def test_screenshot_longest_edge_follows_level(
 ) -> None:
     result = convert_raster(screenshot_png(), raster_settings(detail))
     image = decode(result.data)
-    assert image.format == "WEBP"
+    assert image.format == "JPEG"
+    assert result.extension == ".jpg"
     assert image.size == expected_size == (result.width, result.height)
 
 
@@ -48,6 +50,7 @@ def test_small_images_are_never_upscaled() -> None:
 def test_metadata_is_stripped_at_every_level(detail: Detail) -> None:
     result = convert_raster(jpeg_with_exif(), raster_settings(detail))
     image = decode(result.data)
+    assert image.format == "JPEG"
     assert not image.getexif()
     assert "icc_profile" not in image.info
     assert "exif" not in image.info
@@ -83,9 +86,21 @@ def test_multipage_tiff_keeps_first_page() -> None:
     )
 
 
-def test_transparency_survives() -> None:
+def test_transparency_survives_as_png() -> None:
     result = convert_raster(transparent_png(), RasterSettings(max_edge=None, quality=90))
-    assert decode(result.data).mode == "RGBA"
+    image = decode(result.data)
+    assert image.format == "PNG"
+    assert result.extension == ".png"
+    assert image.mode == "RGBA"
+    assert image.getpixel((0, 0))[3] == 0
+
+
+def test_fully_opaque_alpha_becomes_rgb_jpeg() -> None:
+    result = convert_raster(opaque_rgba_png(), RasterSettings(max_edge=None, quality=90))
+    image = decode(result.data)
+    assert image.format == "JPEG"
+    assert result.extension == ".jpg"
+    assert image.mode == "RGB"
 
 
 def test_higher_quality_produces_larger_file() -> None:

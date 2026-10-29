@@ -17,5 +17,5 @@ def test_format_size() -> None:
 
 
 def test_report_line() -> None:
-    line = report_line("a/home.png", "out/a/home.webp", 421_888, 39_014, 3950, 1516)
-    assert line == "a/home.png -> out/a/home.webp  412.0 KB -> 38.1 KB  ~3950 -> ~1516 tokens"
+    line = report_line("a/home.png", "out/a/home.jpg", 421_888, 39_014, 3950, 1516)
+    assert line == "a/home.png -> out/a/home.jpg  412.0 KB -> 38.1 KB  ~3950 -> ~1516 tokens"

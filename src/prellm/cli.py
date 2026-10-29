@@ -26,6 +26,7 @@ class Job:
     source: Path
     kind: InputKind
     fmt: OutputFormat
+    # Image jobs hold the destination without an extension; the converted image picks it.
     destination: Path | None
 
 
@@ -62,7 +63,10 @@ def plan_jobs(
             continue
         destination = None
         if out is not None:
-            destination = out / relative.with_suffix(OUTPUT_EXTENSIONS[chosen])
+            if chosen is OutputFormat.IMAGE:
+                destination = out / relative.with_suffix("")
+            else:
+                destination = out / relative.with_suffix(OUTPUT_EXTENSIONS[chosen])
         jobs.append(Job(source, kind, chosen, destination))
 
     if out is None:
@@ -79,8 +83,11 @@ def plan_jobs(
     for job in jobs:
         if job.destination is None:
             continue
-        if job.destination.resolve() in sources:
-            problems.append(f"{job.source}: {job.destination} would overwrite its input")
+        overwritten = next(
+            (path for path in _candidate_paths(job) if path.resolve() in sources), None
+        )
+        if overwritten is not None:
+            problems.append(f"{job.source}: {overwritten} would overwrite its input")
         elif job.destination in claimed:
             problems.append(
                 f"{claimed[job.destination]} and {job.source} would both write {job.destination}"
@@ -92,6 +99,17 @@ def plan_jobs(
         problems.extend(missing_ocr_prerequisites())
 
     return jobs, problems
+
+
+def _candidate_paths(job: Job) -> list[Path]:
+    assert job.destination is not None
+    if job.fmt is not OutputFormat.IMAGE:
+        return [job.destination]
+    return [_with_extension(job.destination, extension) for extension in (".jpg", ".png")]
+
+
+def _with_extension(stem: Path, extension: str) -> Path:
+    return stem.parent / (stem.name + extension)
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -127,9 +145,12 @@ def main(argv: list[str] | None = None) -> int:
             sys.stdout.write(converted.data.decode("utf-8"))
             destination = "stdout"
         else:
-            job.destination.parent.mkdir(parents=True, exist_ok=True)
-            job.destination.write_bytes(converted.data)
-            destination = str(job.destination)
+            final = job.destination
+            if job.fmt is OutputFormat.IMAGE:
+                final = _with_extension(final, converted.extension)
+            final.parent.mkdir(parents=True, exist_ok=True)
+            final.write_bytes(converted.data)
+            destination = str(final)
         line = report.report_line(
             str(job.source),
             destination,
