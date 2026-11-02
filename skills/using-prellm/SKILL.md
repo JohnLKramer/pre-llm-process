@@ -24,6 +24,8 @@ Always write to a fresh `mktemp -d` folder, so you never read stale output from 
 
 ## Choose format and level from the objective
 
+For a saved web page (`.html`, `.htm`):
+
 | Objective | Command flags | Why |
 |---|---|---|
 | Find facts, numbers, or table data in a page; summarise an article | `--format md --detail low` | Main content only, tables kept, no URLs |
@@ -32,7 +34,13 @@ Always write to a fresh `mktemp -d` folder, so you never read stale output from 
 | Page layout, navigation menus, header and footer, how sections are arranged | `--format html --detail medium` | Navigation and footer kept in full; ads and cookie banners collapsed |
 | Only the outline of the layout | `--format html --detail low` | Navigation and footer collapsed to placeholders with link and word counts |
 | Element ids, classes, or roles (CSS selectors, scrapers, browser extensions, UI tests) | `--format html --detail high` | Lower levels strip `id`, `class`, and `role` |
-| Read a screenshot or image | `--format image --detail minimal`, then open the output file | 640px longest edge; enough for normal UI text |
+
+For a screenshot or other image, the format is always `image`, then open the output file. `html` is rejected, and OCR to `md` loses the layout.
+
+| Objective | Command flags | Why |
+|---|---|---|
+| Any question about an app or web page screenshot: navigation, layout, buttons, tabs, labels, badges, notifications | `--format image --detail low` | 1024px longest edge. App text such as menu items, badges, and toasts is often unreadable at `minimal` |
+| Overall look of a photo, chart, or diagram with large text | `--format image --detail minimal` | 640px longest edge |
 
 Images come out as JPEG, or PNG when the image has transparency. Text output from `md` is the smallest; `html` costs about 2–7× as much at the same level, so use it only when layout is the question.
 
@@ -45,7 +53,7 @@ To read text from an image as markdown instead (`--format md` on an image), `tes
 | `<nav data-collapsed="42 links, 310 words"></nav>` (or any tag with `data-collapsed`) | The region was removed, not empty | Re-run one level higher if you need what was in it. In `html`, `medium` keeps navigation and footers |
 | Note: `main content kept only N% of the page's text` | Markdown kept a small part of the page | Re-run with `--detail high` |
 | Markdown has no navigation or footer | Below `high`, markdown keeps only the main content | Use `--detail high`, or `--format html --detail medium` for structure |
-| Image text too small or blurry to read | Resolution too low | Re-run at `low` (1024px), then `medium` (1568px) |
+| Image text too small or blurry to read | Resolution too low | Re-run one level higher: `low` is 1024px, `medium` 1568px |
 
 Go up one level at a time. Each level costs roughly 2–3× the one below it.
 
